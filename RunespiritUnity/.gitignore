@@ -4,7 +4,7 @@
 #
 
 #ignore all of plugins
-/[Aa]ssets/[Pp]lugins/**
+/[Aa]ssets/[Pp]lugins/
 
 #for now I want to ignore the RLTK stuff since I don't think I'll use it
 /[Aa]ssets/external/RLTK/

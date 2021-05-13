@@ -1,0 +1,10 @@
+﻿title: Guardian.Hello
+tags:
+---
+<<if visited("Guardian.Hello") is false>>
+    <<@ Guardian>>Hi there!
+    <<@ Player>>Hello.
+<<else>>
+    <<@ Guardian>>Hi again!
+<<endif>>
+===

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterReflection
+  m_Shader: {fileID: -6465566751694194690, guid: d6ae7aaa2c9366c4e984ccea3832f0d1, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - MainTex:
+        m_Texture: {fileID: 8400000, guid: a43f4ffa9a531c34fb9d4edb21633db8, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - RenderTexture:
+        m_Texture: {fileID: 8400000, guid: a43f4ffa9a531c34fb9d4edb21633db8, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_35c1dbb1531942ec9d0cab29407c2511:
+        m_Texture: {fileID: 2800000, guid: 15bb685c068122644859a3eeb0fa090a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_5717d43b30144f62af29a27dbbac2076:
+        m_Texture: {fileID: 2800000, guid: abf0be22c7a8e6f45b24d03db7ce010e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_882dcf3dafd1430496814350995ec6d0:
+        m_Texture: {fileID: 8400000, guid: a43f4ffa9a531c34fb9d4edb21633db8, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_f086254c27b54a9288a0380379f178e6:
+        m_Texture: {fileID: 2800000, guid: a712b9c258689774f8bb06524ff70844, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 8400000, guid: a43f4ffa9a531c34fb9d4edb21633db8, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_7bf43af1d3f245828195a5a088da1f42: 0.02
+    - Vector1_8926e0d83deb405f927fbe4b3a690a67: 0.22
+    - Vector1_dde3c9a5bb2641bf94470d9a63d208c2: 0.3
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - Color_7bba771966f142a49d1c6b6cef00a985: {r: 0.41503078, g: 0.76065975, b: 0.764151, a: 0.68235296}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

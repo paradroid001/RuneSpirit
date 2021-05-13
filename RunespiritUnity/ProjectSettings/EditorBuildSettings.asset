@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Runespirit/Scenes/Runespirit_Test.unity
+    guid: cc2455119e53b0d4ea1ff0ab944ebb17
+  - enabled: 1
+    path: Assets/Mageblaster/Scenes/Mageblaster.unity
+    guid: 7a79148b84928bc44a2ab6e6d8b367a8
+  m_configObjects: {}

@@ -1,0 +1,9 @@
+﻿title: Merchant.Hello
+tags:
+---
+<<if visited("Merchant.Hello") is false>>
+    <<@ Merchant>>Hello!
+<<else>>
+    <<@ Merchant>>Howdy!
+<<endif>>
+===

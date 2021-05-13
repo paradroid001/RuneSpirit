@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11fe8fc8e7415ac4dbf16e1b90d84e6d, type: 3}
-  m_Name: GuardianDialogeCharacter
+  m_Script: {fileID: 11500000, guid: f4fbfe36e49eada4fbeeb2f54be9f013, type: 3}
+  m_Name: GuardianDialogueCharacter
   m_EditorClassIdentifier: 
   charname: Guardian
   bgColour: {r: 0.449, g: 0.585, b: 0.745, a: 1}
   textColour: {r: 1, g: 1, b: 1, a: 1}
   charImage: {fileID: 6682772982591665868, guid: 6fbe799fb6ff53c4caaa0b6632bfab6d, type: 3}
-  font: {fileID: 11400000, guid: 8da1e90b3f2b1664e899bc73c04057a1, type: 2}
+  font: {fileID: 0}

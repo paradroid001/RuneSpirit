@@ -9,12 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fc8b7dd7a91d0a459a46bf80faab8b9, type: 3}
+  m_Script: {fileID: 11500000, guid: aec48c5a544edcf40a41da5f79ff96e2, type: 3}
   m_Name: RunespiritDialogueManager
   m_EditorClassIdentifier: 
   charactersettings:
-  - {fileID: 11400000, guid: f659e1dbb1426d141a8347997d63d937, type: 2}
-  - {fileID: 11400000, guid: d8ffd42fc7a56d141ae2fcf77c084fc8, type: 2}
+  - {fileID: 11400000, guid: 7a5c5a281a9035b419d718b9a1bd8c2f, type: 2}
   - {fileID: 11400000, guid: 665b870dc4157674c82bbbe5b09c9831, type: 2}
   uiImage: {fileID: 0}
   nameText: {fileID: 0}

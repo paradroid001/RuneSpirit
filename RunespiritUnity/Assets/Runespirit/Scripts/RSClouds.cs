@@ -26,7 +26,7 @@ namespace Punk.Runespirit
                 float y = s.transform.localPosition.y;
                 //Vector3 pixelpos = Camera.main.WorldToScreenPoint(s.transform.localPosition);
                 Vector2 pixelpos = flickscreen2D.CameraPointToPixels(s.transform.localPosition); //.localPosition);
-                Debug.Log("Cloud pixel pos is " + pixelpos);
+                //Debug.Log("Cloud pixel pos is " + pixelpos);
                 //pixelpos = flickscreen2D.NormalisePixelsForScreen(pixelpos);
                 
                 

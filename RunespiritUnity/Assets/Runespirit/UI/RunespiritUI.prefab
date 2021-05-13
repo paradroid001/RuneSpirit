@@ -60,15 +60,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 9a1b732b9380ed345ae91603e105e22a, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -89,12 +89,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
-  m_MinWidth: -1
+  m_MinWidth: 100
   m_MinHeight: -1
-  m_PreferredWidth: 200
-  m_PreferredHeight: -1
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: 300
+  m_FlexibleWidth: 1
+  m_FlexibleHeight: 1
   m_LayoutPriority: 1
 --- !u!1 &483535757955556745
 GameObject:
@@ -500,8 +500,8 @@ MonoBehaviour:
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
@@ -1657,8 +1657,8 @@ GameObject:
   - component: {fileID: 9058423604487102070}
   - component: {fileID: 4781587968770175756}
   - component: {fileID: 2704172461510899212}
-  - component: {fileID: 6823849532027978709}
   - component: {fileID: 1083933683}
+  - component: {fileID: 5804825492750167764}
   m_Layer: 0
   m_Name: Dialogue Runner
   m_TagString: Untagged
@@ -1917,25 +1917,6 @@ MonoBehaviour:
     value: false
     type: 2
   debugTextView: {fileID: 5480523472961941579}
---- !u!114 &6823849532027978709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4619291974281192447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e175c4c0fc63d144ae79a3c09bd09bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uiImage: {fileID: 2402039060893700995}
-  nameText: {fileID: 888411897099307313}
-  defaultBGColour: {r: 0, g: 0, b: 0, a: 0}
-  defaultTextColour: {r: 0, g: 0, b: 0, a: 0}
-  defaultSprite: {fileID: 0}
-  defaultFont: {fileID: 0}
-  manager: {fileID: 11400000, guid: 87653907fd84ef043b988ee01cfcea2c, type: 2}
 --- !u!114 &1083933683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1949,6 +1930,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 9058423604487102070}
+--- !u!114 &5804825492750167764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4619291974281192447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87e835b14c87e6419254881c988c13f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiImage: {fileID: 5624609444706415576}
+  nameText: {fileID: 888411897099307313}
+  defaultBGColour: {r: 0, g: 0, b: 0, a: 0}
+  defaultTextColour: {r: 0, g: 0, b: 0, a: 0}
+  defaultSprite: {fileID: 0}
+  defaultFont: {fileID: 0}
+  manager: {fileID: 11400000, guid: ae53b10511475264c9bdc7f1dc5551ee, type: 2}
 --- !u!1 &4772932196099469727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,7 +2190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text1: {fileID: 5479208936599517237}
   text2: {fileID: 8356799530653660405}
-  debugUISystem: {fileID: 11400000, guid: 4668101c98e0978448ce83caf2f44bc0, type: 2}
+  debugUISystem: {fileID: 11400000, guid: 7ee8024281ca783439af00d91342f5b9, type: 2}
 --- !u!1 &5297232167963919216
 GameObject:
   m_ObjectHideFlags: 0
@@ -2225,7 +2225,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -34.30005, y: -318.63}
+  m_AnchoredPosition: {x: -34.300293, y: -318.62988}
   m_SizeDelta: {x: 425.5, y: -686.3}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!222 &5297232167963918991
@@ -2359,7 +2359,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 26.300049, y: -318.63}
+  m_AnchoredPosition: {x: 26.300293, y: -318.62988}
   m_SizeDelta: {x: 460, y: -686.31}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &5480523472961941576

@@ -3268,10 +3268,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb3cff66dfa6c6545b3e75883ec08dff, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e20e93b28f7e5d49bf756ea44387201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  settings: {fileID: 11400000, guid: 8502ba61d6f77504f985a0a6984bc0f1, type: 2}
+  settings: {fileID: 11400000, guid: 24714c43c8f1b5a4c9b25e90cc7fe66a, type: 2}
   target: {fileID: 582683671}
   debug: {fileID: 0}
 --- !u!20 &519420031
@@ -9368,66 +9368,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 731615660762423540}
     m_Modifications:
-    - target: {fileID: 2402039060893700995, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9a1b732b9380ed345ae91603e105e22a, type: 3}
-    - target: {fileID: 2402039060893700995, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_Maskable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2402039060893700995, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_RaycastTarget
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2402039060893700995, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_PreserveAspect
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4443962312429968397, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_ChildForceExpandWidth
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4443962312429968397, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_ChildForceExpandHeight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4616626852003625011, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_MinWidth
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 4616626852003625011, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_FlexibleWidth
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4616626852003625011, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_FlexibleHeight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4616626852003625011, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_PreferredWidth
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4616626852003625011, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_PreferredHeight
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 5297232167963919217, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -34.300293
-      objectReference: {fileID: 0}
-    - target: {fileID: 5297232167963919217, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -318.62988
-      objectReference: {fileID: 0}
-    - target: {fileID: 5480523472961941578, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 26.300293
-      objectReference: {fileID: 0}
-    - target: {fileID: 5480523472961941578, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -318.62988
-      objectReference: {fileID: 0}
     - target: {fileID: 5480523473737382350, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -9476,18 +9416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RunespiritUI
       objectReference: {fileID: 0}
-    - target: {fileID: 5480523473737382353, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8586562531518943851, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_ChildForceExpandWidth
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8586562531518943851, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
-      propertyPath: m_ChildForceExpandHeight
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 5804825492750167764, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
+      propertyPath: uiImage
+      value: 
+      objectReference: {fileID: 1110347889}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
 --- !u!114 &706097185 stripped
@@ -11558,6 +11490,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1110347889 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2402039060893700995, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
+  m_PrefabInstance: {fileID: 700676224}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1118321410 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8516355574165628724, guid: d69d353f7315cd84fb49ceafb03f5f7f, type: 3}
@@ -27297,7 +27240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cloudSpeed: 0.008
-  flickscreen2D: {fileID: 11400000, guid: 8502ba61d6f77504f985a0a6984bc0f1, type: 2}
+  flickscreen2D: {fileID: 11400000, guid: 24714c43c8f1b5a4c9b25e90cc7fe66a, type: 2}
 --- !u!1 &2044784791
 GameObject:
   m_ObjectHideFlags: 0

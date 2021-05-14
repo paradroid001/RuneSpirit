@@ -1,0 +1,4 @@
+[submodule "ptlibs"]
+	path = ptlibs
+	url = https://github.com/paradroid001/ptlibs.git
+	branch = main

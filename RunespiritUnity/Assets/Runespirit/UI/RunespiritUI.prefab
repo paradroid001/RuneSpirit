@@ -1657,7 +1657,6 @@ GameObject:
   - component: {fileID: 9058423604487102070}
   - component: {fileID: 4781587968770175756}
   - component: {fileID: 2704172461510899212}
-  - component: {fileID: 1083933683}
   - component: {fileID: 5804825492750167764}
   m_Layer: 0
   m_Name: Dialogue Runner
@@ -1704,7 +1703,7 @@ MonoBehaviour:
   onNodeComplete:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1083933683}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GAD375.Prototyper.DialogueNodeTracker, Assembly-CSharp
         m_MethodName: NodeComplete
         m_Mode: 0
@@ -1917,19 +1916,6 @@ MonoBehaviour:
     value: false
     type: 2
   debugTextView: {fileID: 5480523472961941579}
---- !u!114 &1083933683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4619291974281192447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca9fefd343e3feb4db61dd97d67c1f9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueRunner: {fileID: 9058423604487102070}
 --- !u!114 &5804825492750167764
 MonoBehaviour:
   m_ObjectHideFlags: 0

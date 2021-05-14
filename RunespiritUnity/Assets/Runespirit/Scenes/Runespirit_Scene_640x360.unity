@@ -799,6 +799,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &143214886 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7028470417805505840, guid: adf3e140f76d42b408dbac4d3e0db44f, type: 3}
+  m_PrefabInstance: {fileID: 2035584001302303686}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &155620002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1982,13 +1993,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 391893407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ee73cd9fe5ab91419c713763b90ade4, type: 3}
+  m_Script: {fileID: 11500000, guid: 87663f75fc098004996392e5c4aa22fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gameWidth: 640
   gameHeight: 360
   pixelsToUnits: 16
-  outputShader: {fileID: 4800000, guid: 21df74452e10eeb4c9c8165db978b208, type: 3}
+  outputShader: {fileID: 4800000, guid: fa56980e61f52244eb865ea1026da964, type: 3}
   targetCamera: {fileID: 519420031}
 --- !u!114 &391893410
 MonoBehaviour:
@@ -3956,7 +3967,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 582683671}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13d04ec77f146f34a94b5a233778a3cf, type: 3}
+  m_Script: {fileID: 11500000, guid: 13854b0fedbfce94794a9575030da023, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   interactionRadius: 0.5
@@ -25281,6 +25292,17 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!114 &1543603165 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6177905467085810120, guid: adf3e140f76d42b408dbac4d3e0db44f, type: 3}
+  m_PrefabInstance: {fileID: 2035584001302303686}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1565263924
 GameObject:
   m_ObjectHideFlags: 0
@@ -27415,6 +27437,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 93787148779456243, guid: adf3e140f76d42b408dbac4d3e0db44f, type: 3}
+      propertyPath: statusMessages
+      value: 
+      objectReference: {fileID: 1543603165}
+    - target: {fileID: 1411271366658804137, guid: adf3e140f76d42b408dbac4d3e0db44f, type: 3}
+      propertyPath: dialogueRunner
+      value: 
+      objectReference: {fileID: 143214886}
     - target: {fileID: 1592269085562696496, guid: adf3e140f76d42b408dbac4d3e0db44f, type: 3}
       propertyPath: m_Name
       value: RunespiritManager
